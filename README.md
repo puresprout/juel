@@ -1,4 +1,4 @@
-# JUEL - Java Unified Expression Language
+# JUEL using openbeans - Java Unified Expression Language using openbeans
 
 [_JUEL_](http://juel.sf.net) is an implementation of the Unified Expression Language (EL),
 specified as part of the JSP 2.1 standard ([JSR-245](http://jcp.org/aboutJava/communityprocess/final/jsr245/)),
