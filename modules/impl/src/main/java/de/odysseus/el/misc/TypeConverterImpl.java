@@ -15,8 +15,8 @@
  */
 package de.odysseus.el.misc;
 
-import java.beans.PropertyEditor;
-import java.beans.PropertyEditorManager;
+import com.googlecode.openbeans.PropertyEditor;
+import com.googlecode.openbeans.PropertyEditorManager;
 import java.math.BigDecimal;
 import java.math.BigInteger;
 

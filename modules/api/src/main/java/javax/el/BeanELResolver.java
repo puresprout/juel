@@ -15,10 +15,10 @@
  */
 package javax.el;
 
-import java.beans.FeatureDescriptor;
-import java.beans.IntrospectionException;
-import java.beans.Introspector;
-import java.beans.PropertyDescriptor;
+import com.googlecode.openbeans.FeatureDescriptor;
+import com.googlecode.openbeans.IntrospectionException;
+import com.googlecode.openbeans.Introspector;
+import com.googlecode.openbeans.PropertyDescriptor;
 import java.lang.reflect.Array;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
@@ -185,7 +185,7 @@ public class BeanELResolver extends ELResolver {
 	/**
 	 * If the base object is not null, returns an Iterator containing the set of JavaBeans
 	 * properties available on the given object. Otherwise, returns null. The Iterator returned must
-	 * contain zero or more instances of java.beans.FeatureDescriptor. Each info object contains
+	 * contain zero or more instances of com.googlecode.openbeans.FeatureDescriptor. Each info object contains
 	 * information about a property in the bean, as obtained by calling the
 	 * BeanInfo.getPropertyDescriptors method. The FeatureDescriptor is initialized using the same
 	 * fields as are present in the PropertyDescriptor, with the additional required named

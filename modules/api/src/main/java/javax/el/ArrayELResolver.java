@@ -15,7 +15,7 @@
  */
 package javax.el;
 
-import java.beans.FeatureDescriptor;
+import com.googlecode.openbeans.FeatureDescriptor;
 import java.lang.reflect.Array;
 import java.util.Iterator;
 

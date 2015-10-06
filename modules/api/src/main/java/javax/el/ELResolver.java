@@ -15,7 +15,7 @@
  */
 package javax.el;
 
-import java.beans.FeatureDescriptor;
+import com.googlecode.openbeans.FeatureDescriptor;
 import java.util.Iterator;
 
 /**
@@ -54,7 +54,7 @@ import java.util.Iterator;
  * 
  * The {@link #getFeatureDescriptors(ELContext, Object)} and
  * {@link #getCommonPropertyType(ELContext, Object)} methods are primarily designed for design-time
- * tool support, but must handle invocation at runtime as well. The java.beans.Beans.isDesignTime()
+ * tool support, but must handle invocation at runtime as well. The com.googlecode.openbeans.Beans.isDesignTime()
  * method can be used to determine if the resolver is being consulted at design-time or runtime.
  */
 public abstract class ELResolver {
@@ -94,7 +94,7 @@ public abstract class ELResolver {
 	 * given base object. One use for this method is to assist tools in auto-completion. If the base
 	 * parameter is null, the resolver must enumerate the list of top-level variables it can
 	 * resolve. The Iterator returned must contain zero or more instances of
-	 * java.beans.FeatureDescriptor, in no guaranteed order. In the case of primitive types such as
+	 * com.googlecode.openbeans.FeatureDescriptor, in no guaranteed order. In the case of primitive types such as
 	 * int, the value null must be returned. This is to prevent the useless iteration through all
 	 * possible primitive values. A return value of null indicates that this resolver does not
 	 * handle the given base object or that the results are too complex to represent with this

@@ -15,7 +15,7 @@
  */
 package javax.el;
 
-import java.beans.FeatureDescriptor;
+import com.googlecode.openbeans.FeatureDescriptor;
 import java.util.Iterator;
 import java.util.Map;
 
@@ -65,7 +65,7 @@ public class MapELResolver extends ELResolver {
 	/**
 	 * If the base object is a map, returns an Iterator containing the set of keys available in the
 	 * Map. Otherwise, returns null. The Iterator returned must contain zero or more instances of
-	 * java.beans.FeatureDescriptor. Each info object contains information about a key in the Map,
+	 * com.googlecode.openbeans.FeatureDescriptor. Each info object contains information about a key in the Map,
 	 * and is initialized as follows:
 	 * <ul>
 	 * <li>displayName - The return value of calling the toString method on this key, or "null" if

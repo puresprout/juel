@@ -15,7 +15,7 @@
  */ 
 package javax.el;
 
-import java.beans.FeatureDescriptor;
+import com.googlecode.openbeans.FeatureDescriptor;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;

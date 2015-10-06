@@ -15,7 +15,7 @@
  */
 package de.odysseus.el.util;
 
-import java.beans.FeatureDescriptor;
+import com.googlecode.openbeans.FeatureDescriptor;
 import java.util.Iterator;
 
 import javax.el.ArrayELResolver;
