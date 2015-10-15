@@ -1,5 +1,7 @@
 # JUEL using openbeans - Java Unified Expression Language using openbeans
 
+이 프로젝트는 JUEL이 JavaSE의 java.beans 패키지에 의존하는 것을 openbeans 라이브러리에 의존하도록 수정한 버전이다.
+
 [_JUEL_](http://juel.sf.net) is an implementation of the Unified Expression Language (EL),
 specified as part of the JSP 2.1 standard ([JSR-245](http://jcp.org/aboutJava/communityprocess/final/jsr245/)),
 which has been introduced in JEE5. Additionally, JUEL 2.2 implements the JSP 2.2 maintenance release
